@@ -7,4 +7,5 @@
  * Arrays have fixed side but linked list is dynamic.
  * Random access is not allowed, because you don't know where the next element is. you only know the 1st element, then first element will point you to the next element.
  * Linked list need more memory compared to array, because it store 2 things, pointer and value.
- * 
+### 3. Linked lists
+#### 3.1. Linked lists
