@@ -54,3 +54,23 @@
 	 * As each node includes a pointer to the next node, the data elements in the linked list do not need to retain contiguous locations.  The nodes are dispersed throughout memory.
 	 * It is rather easy to add or remove a data item as the address (pointer) only has to be updated.
 	 *  As the number of nodes is not required to be declared at the start of the program, the number of elements can be dynamic.  The only cost is memory as the node has to store the pointer to the next node.
+	 
+#### 3.4. Single linked list: insertion and deletion of nodes
+   * Insertion (add) of a node to the list. (`Add code for insertion`)
+     * You can add a node at the front, end or anywhere in the linked list.
+     * In the example (`get the example`), a new node is added and the address (pointer) is updated to link to the new node.  The new node then points to the node thereafter.
+   * Remove (delete) a node in the list
+     * In a similar manner, a node can be deleted, by just updating the addresses, as seen in the next example:
+## 4. Implement linked lists as ADTs
+ * `What is an ADT?`
+   * An abstract data type `(ADT)` is a  mathematical model for a certain class of data structures that have similar behaviour; or for certain data types of one or more programming languages that have similar semantics. An abstract data type is defined indirectly, only by the operations that may be performed on it and by mathematical constraints on the effects (and possibly cost) of those operations. They do not specify how the data structure must be implemented but simply provide a minimal expected interface and set of behaviours.
+ 
+   * For example, an abstract stack could be defined by three operations: `push`, which inserts some data item onto the structure, `pop`, which extracts an item from it (with the constraint that each pop always returns the most recently pushed item that has not been popped yet), and `peek`, that allows data on top of the structure to be examined without removal. 
+   
+   * When analyzing the efficiency of algorithms that use stacks, one may also specify that all operations take the same time no matter how many items have been pushed into the stack and that the stack uses a constant amount of storage for each element.
+   
+   * ADT are purely theoretical entities, used (among other things) to simplify the description of abstract algorithms, classify and evaluate data structures, and formally describe the type systems of programming languages. However, an ADT may be implemented by specific data types or data structures, in many ways and in many programming languages; or described in a  formal specification language. ADTs are often implemented as modules: the module's interface declares procedures that correspond to the ADT operations, sometimes with comments that describe the constraints. This information-hiding strategy allows the implementation of the module to be changed without disturbing the client programs.
+   
+   * A linked List is an ADT that holds a collection of Nodes, the nodes can be accessed in a sequential way. When the Nodes are connected with only the next pointer the list is called a Single Linked List. A linked list is a series of connected nodes, where each node is a data structure.
+ 
+ 
