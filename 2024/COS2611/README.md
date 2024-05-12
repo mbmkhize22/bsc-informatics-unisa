@@ -36,3 +36,8 @@
    };
    ```
    * Variable declaration:
+   * Basic operations of a linked list:
+     * Search for an item in the list
+	 * Insert an item in the list
+	 * Delete an item from the list
+	 * Traversal: given a pointer to the first node of the list, step through the nodes of the list
