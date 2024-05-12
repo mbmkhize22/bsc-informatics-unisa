@@ -9,3 +9,17 @@
  * Linked list need more memory compared to array, because it store 2 things, pointer and value.
 ### 3. Linked lists
 #### 3.1. Linked lists
+      * Differences between arrays and linked list:
+	    * Arrays:
+		  * Defined size
+		  * Insertion and deletion of elements are difficult 
+		  * Accessing the elements is permitted at random 
+		  * Elements are contiguous
+		  * No additional space is required for the pointer to the next element
+		  
+		* Linked lists
+		  * Size is variable
+		  * Insertion and deletion of elements are simpler
+		  * No random access to the elements is possible
+		  * Elements are not contiguous
+		  * A pointer is required and requires additional memory 
