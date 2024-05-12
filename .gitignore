@@ -5,3 +5,8 @@ build-COS2614*
 *.Release
 *.stash
 *build*
+*obj/Debug
+*.depend
+*.o
+*.o
+*.o

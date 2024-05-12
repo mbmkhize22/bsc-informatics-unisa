@@ -51,6 +51,22 @@ void insertAtTheEnd(Node**head, int newValue) {
     last->Next = newNode;
 }
 
+void insertAfter(Node*previous, int newValue) {
+    //1. Check if previous node is NULL
+    if(previous == NULL) {
+        cout << "Previous can not be NULL";
+        return;
+    }
+
+    //2. Prepare a newNode
+    Node* newNode = new Node();
+    newNode->value = newValue;
+
+    //3. Inaert newNode after previous
+    newNode->Next = previous->Next;
+    previous->Next = newNode;
+}
+
 int main()
 {
     Node* head = new Node();
@@ -69,6 +85,8 @@ int main()
     insertAtTheFront(&head, -1);
     insertAtTheEnd(&head, 4);
     insertAtTheEnd(&head, 5);
+    insertAfter(head, 1000);
+    insertAfter(second, 2000);
     printList(head);
 
     cout << "Hello world!" << endl;
