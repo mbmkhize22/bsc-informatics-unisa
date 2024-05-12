@@ -1,0 +1,7 @@
+build-COS2614*
+*.idx*
+*.exe
+*.Debug
+*.Release
+*.stash
+*build*
