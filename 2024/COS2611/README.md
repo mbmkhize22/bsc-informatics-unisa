@@ -98,3 +98,23 @@
 	  int As2;
 	};
    ```
+#### 4.3. Data types: Abstract data types (ADT)
+   * Abstract DataTypes (ADT)
+   * ADT - data types which define an operation on values using functions without specifying what is inside the function and how the operations are performed.
+   * Example:
+     * Single linked list ADT
+	 ```
+	 Domain: Linked List holds a collection of Nodes, the nodes can be accessed in a sequential way. When the Nodes are connected with only the next pointer the list is called the Singly Linked List. A linked list is a series of connected nodes, where each node is a data structure.
+	 ```
+     * Operations (functions): 
+	 ```
+	 createNode() - initialise the list
+	 insert_head() - insert a node as the head node in the linked list
+	 delete_head() - delete the first node in the linked list
+	 insert_position() - insert a node at a specific position in the linked list
+	 delete_tail() - delete the last node in the linked list.
+	 etc. etc.
+	 ```
+	 * Notice that we only indicate what the operations are that will be performed, but we do not indicate WHAT those operations will be. 
+   * Why ADT?
+     * When a user wants to use links, the user only needs to know the operations and implement the operations, without knowing what is INSIDE the functions.
