@@ -71,6 +71,30 @@
    
    * `ADT` are purely theoretical entities, used (among other things) to simplify the description of abstract algorithms, classify and evaluate data structures, and formally describe the type systems of programming languages. However, an ADT may be implemented by specific data types or data structures, in many ways and in many programming languages; or described in a  formal specification language. ADTs are often implemented as modules: the module's interface declares procedures that correspond to the ADT operations, sometimes with comments that describe the constraints. This information-hiding strategy allows the implementation of the module to be changed without disturbing the client programs.
    
-   * A linked List is an ADT that holds a collection of Nodes, the nodes can be accessed in a sequential way. When the Nodes are connected with only the next pointer the list is called a Single Linked List. A linked list is a series of connected nodes, where each node is a data structure.
- 
- 
+   * A `linked List` is an `ADT that holds a collection of Nodes, the nodes can be accessed in a sequential way`. When the Nodes are connected with only the next pointer the list is called a Single Linked List. A linked list is a series of connected nodes, where each node is a data structure.
+
+#### 4.1. Data types: Known data types
+   * Differences between: Data types, User defined data types and Abstract data types (ADT):
+   * Data types:
+     * Defines a certain domain of values.
+	 * Defines the operations allowed on those values.
+	 * Examples: 
+	   * int type
+	     * Domain: Allows only integer values
+		 * Operations:  addition, subtraction, multiplication, bitwise operations, etc.
+		 
+	   * float type
+         * Domain:  Allows only floating point values.
+		 * Operations:  addition, subtraction, multiplication, division, etc (bitwise and % operations are not allowed)
+		 
+#### 4.2. Data types: User defined data types
+   * User-defined data types: User-defined data types are not specified in the programming language but are specified by the user.
+   * Examples: structure, union and enumeration.
+   * By using structures, we are defining our own type by combining other data types.  markStudent is defined by the user.
+   * Example:
+   ``` java
+	struct markStudent {
+	  int As1;
+	  int As2;
+	};
+   ```
