@@ -7,7 +7,7 @@
  * Arrays have fixed side but linked list is dynamic.
  * Random access is not allowed, because you don't know where the next element is. you only know the 1st element, then first element will point you to the next element.
  * Linked list need more memory compared to array, because it store 2 things, pointer and value.
-### 3. Linked lists
+## 3. Linked lists
 #### 3.1. Linked lists
    * Differences between arrays and linked list:
      * Arrays:
@@ -69,7 +69,7 @@
    
    * When analyzing the efficiency of algorithms that use stacks, one may also specify that all operations take the same time no matter how many items have been pushed into the stack and that the stack uses a constant amount of storage for each element.
    
-   * ADT are purely theoretical entities, used (among other things) to simplify the description of abstract algorithms, classify and evaluate data structures, and formally describe the type systems of programming languages. However, an ADT may be implemented by specific data types or data structures, in many ways and in many programming languages; or described in a  formal specification language. ADTs are often implemented as modules: the module's interface declares procedures that correspond to the ADT operations, sometimes with comments that describe the constraints. This information-hiding strategy allows the implementation of the module to be changed without disturbing the client programs.
+   * `ADT` are purely theoretical entities, used (among other things) to simplify the description of abstract algorithms, classify and evaluate data structures, and formally describe the type systems of programming languages. However, an ADT may be implemented by specific data types or data structures, in many ways and in many programming languages; or described in a  formal specification language. ADTs are often implemented as modules: the module's interface declares procedures that correspond to the ADT operations, sometimes with comments that describe the constraints. This information-hiding strategy allows the implementation of the module to be changed without disturbing the client programs.
    
    * A linked List is an ADT that holds a collection of Nodes, the nodes can be accessed in a sequential way. When the Nodes are connected with only the next pointer the list is called a Single Linked List. A linked list is a series of connected nodes, where each node is a data structure.
  
