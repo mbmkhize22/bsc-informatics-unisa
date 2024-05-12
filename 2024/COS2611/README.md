@@ -23,3 +23,16 @@
        * No random access to the elements is possible
        * Elements are not contiguous
        * A pointer is required and requires additional memory 
+	   
+#### 3.2. Linked lists in C++
+   * A node is declared as a class or struct
+   * Data type of a node depends on the specific application
+   * Link component of each node is a pointer
+   ```struct
+   struct nodeType
+   {
+		int info;
+		nodeType*link;
+   };
+   ```
+   * Variable declaration:
