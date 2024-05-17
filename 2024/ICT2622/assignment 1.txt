@@ -1,0 +1,119 @@
+1. If the True/False condition on a message evaluates to false in a sequence diagram, which of the following is correct?
+a.The message is false
+b.The message is not sent <--
+c.The message has no return value
+d.The message is not processed
+
+
+2. The __________ is notation on a sequence diagram showing repeating messages.
+a.loop frame <--
+b.object lifeline
+c.alt frame
+d.opt frame
+
+3. One of the dangers in researching vendor solutions is that users and analysts __________.
+a.may not understand the vendor's solution
+b.may want to buy one of these solutions prematurely <--
+c.may discover different methods to perform business processes
+d.may discover and desire too many unimportant “bells and whistles”
+
+
+4. The number of associations that occur among specific things in an entity relationship diagram is called __________.
+a.cardinality <--
+b.a binary relationship
+c.a relationship
+d.an attribution
+
+
+5. The following are types of events, EXCEPT__________.
+a.compulsory event <--
+b.state event
+c.external event
+d.temporal event
+
+6. Systems design consists of activities to describe the solution to the problem.
+a.False
+b.True <--
+
+
+7. A one sentence description of a use case us called ___________.
+a.brief use case description
+b.short use case description
+c.intermediate use case description
+d.use case description <--
+
+
+8. The SDLC means the Systems Design Life Cycle.
+a.True
+b.False <--
+
+
+9. One benefit of the event decomposition technique is that it helps to identify use cases at the right level of detail.
+a.True <--
+b.False
+
+10. When making a list of nouns to determine what are the important “things” for the new system, there are three question that should be asked about each noun.  Which of the following is one of those questions?
+a.Who needs information about this item?
+b.Is it an abstract item? <--
+c.Is it a tangible item?
+d.Should it be researched further?
+
+
+11. Core Process 3 involves defining in great detail what the information system needs to accomplish in order to provide the organization with the desired benefits.
+a.False
+b.True <--
+
+
+12. Systems analysis involves the creation of logical models.
+a.False
+b.True <--
+
+13. An information system consists of__________.
+a.applications, screens, and database
+b.software, hardware, and network <--
+c.software, hardware, and database
+d.software, database, and manual processes
+
+14. The ERD Crows feet cardinality constraint indicates a mandatory many relationship.
+a.False <--
+b.True
+
+
+A synonym for cardinality (used with UML class diagrams) is __________.
+a.unary relationship
+b.multiplicity <--
+c.relationship
+d.inheritance
+
+
+The specific area of the user's business need that is within the scope of the new system is called the __________.
+a.user specifications
+b.functional requirements
+c.problem domain <--
+d.use cases
+
+
+What is an activity that the system performs in response to a request by a user?
+a.System control
+b.Use case <--
+c.User story
+d.Event
+
+
+On an activity diagram, the diamond represents an “AND” condition.
+a.False <--
+b.True
+
+A piece of information about a particular object is called __________.
+a.data value
+b.attribute <--
+c.field
+d.identifier
+
+
+Draw up an industry and market feasibility for your chosen business/envisaged business.
+You need to include the following in your answer. Use section 3.3 in your prescribed
+textbook as your guideline.
+
+
+
