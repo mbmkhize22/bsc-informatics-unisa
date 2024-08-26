@@ -5,6 +5,7 @@
 #include <QLineEdit>
 #include <QPushButton>
 #include <QLabel>
+#include <QGridLayout>
 #include "Gate.h"
 
 class MainWindow : public QMainWindow {
@@ -15,13 +16,16 @@ public:
     ~MainWindow();
 
 private slots:
-    void onEnterClicked();
+    void onButtonClicked();
 
 private:
     Gate* gate;
-    QLineEdit* passwordInput;
-    QLabel* descriptionLabel;
+    QLineEdit* display;
     QLabel* resultLabel;
+    QString currentInput;
+
+    void createLayout();
+    void verifyPassword();
 };
 
 #endif
